@@ -1,0 +1,120 @@
+
+CH1
+{
+How to read a image
+How to read a video
+How to start webcam
+
+Basic functions:
+Gray image
+Blur image 
+Canny image
+}
+
+CH2
+{
+Resize a image
+Crop a image
+}
+
+CH3
+{
+Print blue screen
+Draw a line
+Draw a rectangle
+Draw a circle
+Put text
+}
+
+
+CH4: 
+{
+Shifting a image 
+Rotating a image
+Resizing a image
+Flipping a image
+Cropping a image
+
+}
+
+CH5:Contour detection(boundaries)
+{
+Canny and threshold images
+}
+
+CH6:Color Spaces
+{
+BGR to grayscale
+BGR to HSV
+BGR to LAB
+BGR to RGB
+Plt func(matplotlib)
+HSV to BGR
+LAB to BGR
+}
+
+CH7: Color Channels
+{
+Split into b,g,r
+Merge images
+}
+
+CH8: blurring techniques
+{
+Blur a image
+Averaging blur
+Gaussian blur
+Median blur
+Bilateral blurr
+}
+Stopped coding from this topic will write about concept in this document itself
+
+CH9: Bitwise Operations
+{
+Bitwise AND(it will return intersection like of circle and rectangle)
+Bitwise OR(it will return union like of circle and rectangle)
+Bitwise XOR(it will return non-intersecting region of circle and rectangle)
+Bitwise NOT( will convert white region to black and black to white)
+}
+
+CH10:Masking (allows us to focus on certain part of image)
+{
+Masked image of different shape by defining the size
+Can also get weird masked shape using bitwise operations
+}
+
+
+
+
+CH11: Computing histogram (Allow us to visualize the pixel intensity)
+{
+Y-axis→represents number of pixels
+X-axis→represents intensity 
+Gray scale image histograms
+Grayscale histograms of masked images
+Color histograms of normal and masked images
+}
+
+CH12: Thresholding
+{
+1.Simple Thresholding
+     Inverse Thresholding(white part changes to black and black to white)
+2.Adaptive thresholding(optimal thresholding value find by computer sliding over the image)
+}
+
+CH13: Edge Detection
+{
+Laplacian gray image(to get gradients)
+sobel(along x and y axis)
+Canny edge detection
+For more advanced detection sobel is preferred over canny
+}
+
+CH14:Face detection
+{
+Detect number of faces in a image by copying haar cascades code from github into a text file in pycharm
+Make a rectangle around face
+Number of faces changes when minNeighbors value changes
+}
+
+CH15: Face Recognition
