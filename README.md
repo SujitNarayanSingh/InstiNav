@@ -40,6 +40,7 @@ Image Segmentation: I studied articles on image segmentation, which provided ins
 
 OpenCV Library: In this project, I utilized the OpenCV library. To gain proficiency in implementing OpenCV, I referred to video tutorials and articles that covered its usage in vehicle detection tasks. These resources helped me understand the library's functionality and how it could be applied effectively.
 
+
 Image Labeling: I explored the documentation from "maths-work" that focused on image labeling in MATLAB. This information was valuable for understanding the process of labeling images, an essential step in training and validating a vehicle detection model.
 
 Object Detection: I dedicated time to learning about object detection techniques, which are crucial for accurately identifying and localizing vehicles within images or video streams. Understanding object detection methods enabled me to make informed decisions regarding the appropriate algorithms to apply in this project.
